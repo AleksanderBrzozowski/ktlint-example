@@ -19,6 +19,6 @@ tasks.withType<KotlinCompile>() {
 }
 
 configure<KtlintExtension> {
-    version.set("0.43.0-SNAPSHOT")
-    debug.set(true)
+    version.set("0.43.0")
+    enableExperimentalRules.set(true)
 }
